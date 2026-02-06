@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Product is added to the cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-06T17:26:13 IST" name="Flipkart Automation Suite" finished-at="2026-02-06T17:27:08 IST" duration-ms="55803">
+    <groups>
+    </groups>
+    <test started-at="2026-02-06T17:26:13 IST" name="Flipkart Test" finished-at="2026-02-06T17:27:08 IST" duration-ms="55803">
+      <class name="tests.FlipkartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:25:41 IST" name="setup" finished-at="2026-02-06T17:26:13 IST" duration-ms="31236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProductToCartTest()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:26:13 IST" name="addProductToCartTest" finished-at="2026-02-06T17:27:08 IST" duration-ms="55579" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product is added to the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:27:09 IST" name="tearDown" finished-at="2026-02-06T17:27:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlipkartTest -->
+    </test> <!-- Flipkart Test -->
+  </suite> <!-- Flipkart Automation Suite -->
+</testng-results>
