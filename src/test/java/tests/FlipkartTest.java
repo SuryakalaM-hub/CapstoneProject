@@ -30,7 +30,7 @@ public class FlipkartTest extends BaseTest {
         System.out.println(b);
         //System.out.println(Assert.assertTrue(b,"Added"));
         if (b) {
-            Reporter.log("Product is added to the cart", true);
+            Reporter.log("Product is added to cart", true);
         }
 
         Assert.assertTrue(b, "Product not added to cart successfully");
