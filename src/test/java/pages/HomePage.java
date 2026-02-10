@@ -1,9 +1,12 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
@@ -23,7 +26,7 @@ public class HomePage {
     }
 
     public void searchProduct(String product) throws InterruptedException {
-    	Thread.sleep(10);
+    	Thread.sleep(15);
     	driver.findElement(searchBox).click();
         driver.findElement(searchBox).sendKeys(product);
         driver.findElement(searchButton).click();

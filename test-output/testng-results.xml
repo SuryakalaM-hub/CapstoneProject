@@ -5,23 +5,23 @@
       <![CDATA[Product is added to the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-02-06T17:26:13 IST" name="Flipkart Automation Suite" finished-at="2026-02-06T17:27:08 IST" duration-ms="55803">
+  <suite started-at="2026-02-10T18:29:03 IST" name="Flipkart Automation Suite" finished-at="2026-02-10T18:29:40 IST" duration-ms="37749">
     <groups>
     </groups>
-    <test started-at="2026-02-06T17:26:13 IST" name="Flipkart Test" finished-at="2026-02-06T17:27:08 IST" duration-ms="55803">
+    <test started-at="2026-02-10T18:29:03 IST" name="Flipkart Test" finished-at="2026-02-10T18:29:40 IST" duration-ms="37749">
       <class name="tests.FlipkartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:25:41 IST" name="setup" finished-at="2026-02-06T17:26:13 IST" duration-ms="31236" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-10T18:28:43 IST" name="setup" finished-at="2026-02-10T18:29:03 IST" duration-ms="19051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addProductToCartTest()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:26:13 IST" name="addProductToCartTest" finished-at="2026-02-06T17:27:08 IST" duration-ms="55579" status="PASS">
+        <test-method signature="addProductToCartTest()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-10T18:29:03 IST" name="addProductToCartTest" finished-at="2026-02-10T18:29:40 IST" duration-ms="37435" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Product is added to the cart]]>
             </line>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-06T17:27:09 IST" name="tearDown" finished-at="2026-02-06T17:27:09 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTest@139982de]" started-at="2026-02-10T18:29:40 IST" name="tearDown" finished-at="2026-02-10T18:29:40 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

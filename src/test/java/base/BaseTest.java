@@ -38,18 +38,18 @@ public class BaseTest {
                options.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe"); // optional
 
               // ChromeDriver driver = new ChromeDriver(options);
-                driver = new ChromeDriver(options);
+               driver = new ChromeDriver(options);
                driver.manage().window().maximize();
                driver.get("https://www.flipkart.com");
-               driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+               driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
        
     }
 
     @AfterSuite
     public void tearDown() {
         if (driver != null) {
-            //driver.quit();
-        	System.out.println("Success");
+        driver.quit();
+        //System.out.println("Success");
         }
     }
 }

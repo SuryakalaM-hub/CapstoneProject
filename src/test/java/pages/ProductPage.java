@@ -41,22 +41,22 @@ public class ProductPage {
     // Close login popup if it appears
     public void closeLoginPopupIfPresent() {
         try {
-            WebElement popupClose = wait.until(ExpectedConditions.elementToBeClickable(loginPopupCloseBtn));
+            WebElement popupClose = wait.until(ExpectedConditions.visibilityOfElementLocated(loginPopupCloseBtn));
             popupClose.click();
         } catch (Exception e) {
             // Popup not displayed, continue
         }
     }
-
+    
     // Add product to cart
     public void addToCart() {
-        closeLoginPopupIfPresent();
+        //closeLoginPopupIfPresent();
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
      // scroll down 300 pixels
      js.executeScript("window.scrollBy(0,300)");
         wait.until(ExpectedConditions.elementToBeClickable(addToCartBtn)).click();
-        System.out.println("hai");
+        //System.out.println("hai");
     }
 
     // Verify product added to cart

@@ -14,9 +14,11 @@ public class FlipkartTest extends BaseTest {
     public void addProductToCartTest() throws InterruptedException {
 
         HomePage home = new HomePage(driver);
+        ProductPage page=new ProductPage(driver);
         Assert.assertTrue(home.verifyLogo(), "Flipkart logo not displayed");
-
-        home.searchProduct("TV");
+        page.closeLoginPopupIfPresent();
+        Thread.sleep(10);
+        home.searchProduct("macbook pro m5");
 
         SearchResultsPage results = new SearchResultsPage(driver);
         results.clickFirstProduct();
@@ -25,9 +27,9 @@ public class FlipkartTest extends BaseTest {
         product.switchToProductTab();
         product.addToCart();
         Thread.sleep(10);
-        boolean b=false;
-         b=product.verifyAddedToCart();
-        System.out.println(b);
+        //boolean b;
+       boolean  b=product.verifyAddedToCart();
+        //System.out.println(b);
         //System.out.println(Assert.assertTrue(b,"Added"));
         if (b) {
             Reporter.log("Product is added to the cart", true);
