@@ -48,7 +48,7 @@ public class BaseTest {
     @AfterSuite
     public void tearDown() {
         if (driver != null) {
-            //driver.quit();
+            driver.quit();
         	System.out.println("Success");
         }
     }
