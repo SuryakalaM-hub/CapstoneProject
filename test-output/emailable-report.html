@@ -9,10 +9,33 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Flipkart Automation Suite</th></tr>
-<tr><td><a href="#t0">Flipkart Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">55,803</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Flipkart Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,480</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Flipkart Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Flipkart Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.FlipkartTest</td><td><a href="#m0">addProductToCartTest</a></td><td rowspan="1">1770378973289</td><td rowspan="1">55579</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Flipkart Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Flipkart Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FlipkartTest</td><td><a href="#m0">addProductToCartTest</a></td><td rowspan="1">1770729059404</td><td rowspan="1">16418</td></tr></tbody>
 </table>
-<h2>Flipkart Test</h2><h3 id="m0">tests.FlipkartTest#addProductToCartTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Product is added to the cart</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Flipkart Test</h2><h3 id="m0">tests.FlipkartTest#addProductToCartTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@title=&apos;Flipkart&apos;]&quot;}
+  (Session info: chrome=145.0.7632.45)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baa16e9062b58128845ee3fc3f76b2d5, findElement {value=//img[@title=&apos;Flipkart&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.45, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63618}, goog:processID: 6764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63618/devtoo..., se:cdpVersion: 145.0.7632.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baa16e9062b58128845ee3fc3f76b2d5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at pages.HomePage.verifyLogo(HomePage.java:22)
+	at tests.FlipkartTest.addProductToCartTest(FlipkartTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
